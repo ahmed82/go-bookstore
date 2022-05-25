@@ -46,7 +46,7 @@ func CreateBook(w http.ResponseWriter, r *http.Request) {
 }
 
 func DeleteBook(w http.ResponseWriter, r *http.Request) {
-	vars := mux.vars(r)
+	vars := mux.Vars(r)
 	bookId := vars["bookId"]
 	Id, err := strconv.ParseInt(bookId, 0, 0)
 	if err != nil {
