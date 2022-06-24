@@ -19,7 +19,11 @@ cd cmd/main
 go build
 ```
 
+![Push image](./info.PNG)
 
+![Push image](./ps.PNG)
+
+![Push image](./routs.PNG)
 
 
 
